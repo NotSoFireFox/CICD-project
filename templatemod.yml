@@ -173,7 +173,7 @@ Resources:
         Type: S3
         Location: !Ref ArtifactBucket
       Stages:  
-        - Name: GithubSource  
+        - Name: CodeCommit
           Actions:  
             - InputArtifacts: []  
               Name: code  
